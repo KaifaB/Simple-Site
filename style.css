@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height:100%;
+}
+main{
+    background-color: #87ceeb;
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.box{
+    background-color: #87ceeb;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    border: solid 4px #48cd32;
+}
+div{
+    margin: 20px 0;
+}
+h1{
+    color: white;
+    margin: 0 auto;
+}
+h2{
+    color: white;
+}
+.page{
+    display: flex;
+    margin: 0 auto;
+}
+.active{
+    color: white;
+}
+h3{
+    padding: 4px;
+    color: #48cd32;
+}
+img {
+    float: right;
+    width: 200px;
+}
+p{
+    color: white;
+}
+.socials{
+    margin: 0 auto;
+    display: flex;
+}
